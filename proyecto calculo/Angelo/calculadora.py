@@ -26,7 +26,7 @@ def convert_bases(number, from_base, to_base):
     except Exception as e:
         return f"Error: {str(e)}"
 
-def main(page: ft.Page):
+def main_calcu(page: ft.Page):
     page.title = "Traductor de números"
     page.vertical_alignment = ft.MainAxisAlignment.CENTER
 
@@ -73,5 +73,3 @@ def main(page: ft.Page):
             alignment=ft.MainAxisAlignment.CENTER,
         )
     )
-
-ft.app(main)
